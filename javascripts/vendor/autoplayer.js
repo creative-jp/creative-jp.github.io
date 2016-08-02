@@ -1,0 +1,1 @@
+$(document).ready(function(){function o(){var o=$(window).scrollTop()+a,i=$(window).scrollTop()+$(window).height()-a;t.each(function(t,a){var n=$(this).offset().top,e=$(this).height()+n;e>o&&i>n?$(this).get(0).play():$(this).get(0).pause()})}var t=$("video.autoplay").not("[autoplay='autoplay']"),a=200;$(document).on("scroll",o)});
